@@ -1,0 +1,14 @@
+//Write a Javaprogram to declare a String variable with initial value of “5”and convert it to “int” before printing it. (Hint : Surf Net)//
+
+package datatypes;
+
+public class Datatypes5 {
+    public static void main(String[] args){
+        String a="5";
+        int b=Integer.parseInt(a);
+        System.out.println(b);
+
+    }
+}
+
+
