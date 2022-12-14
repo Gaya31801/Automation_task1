@@ -1,4 +1,4 @@
-//Write a Javaprogram to declare a String variable with initial value of “5”and convert it to “int” before printing it. (Hint : Surf Net)//
+//Write a Javaprogram to declare a String variable with initial value of “5”and convert it to “int” before printing it. 
 
 package datatypes;
 
