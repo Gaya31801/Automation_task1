@@ -1,0 +1,12 @@
+//Write a Java programto declare a Boolean variable with initial value of “true” andlater change it to “false” before printing it.//
+
+package datatypes;
+
+public class Datatypes2 {
+    public static void main(String[] args){
+        boolean a=true;
+        boolean b=!a;
+        System.out.println(b);
+    }
+}
+
