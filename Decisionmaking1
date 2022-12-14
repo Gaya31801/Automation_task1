@@ -1,0 +1,21 @@
+//Write Java program to allow the user to input his/her age.Then the program will show if the person is eligible to vote. A person who is eligible to vote must be older than or equal to 18 years old.
+
+package decisionmaking;
+
+import java.util.Scanner;
+
+public class Decisionmaking1 {
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Value of a: ");
+    int a=sc.nextInt();
+    if(a>=18){
+        System.out.println("Eligible to vote");
+    }
+    else{
+        System.out.println("Not eligible to vote");
+    }
+
+}
+}
+
