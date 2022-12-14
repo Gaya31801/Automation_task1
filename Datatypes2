@@ -1,4 +1,4 @@
-//Write a Java programto declare a Boolean variable with initial value of “true” andlater change it to “false” before printing it.//
+//Write a Java programto declare a Boolean variable with initial value of “true” andlater change it to “false” before printing it.
 
 package datatypes;
 
