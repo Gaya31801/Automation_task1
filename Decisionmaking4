@@ -1,0 +1,52 @@
+//Write a program to calculate the sum offirst 10 natural number. [Try the program in for,while anddowhile]
+
+
+//for
+package decisionmaking;
+
+public class Decisionmaking4for {
+    public static void main(String[] args) {
+       int sum=0;
+        for (int i = 1; i <= 10; i++) {
+            sum = sum + i;
+        }
+        System.out.println(sum);
+    }
+}
+
+
+//while
+package decisionmaking;
+
+public class Decisionmaking4while {
+    public static void main(String[] args) {
+        int i=1;
+        int sum=0;
+        while(i<=10){
+            sum+=i;
+            i++;
+        }
+        System.out.print(sum);
+
+    }
+}
+
+//do
+package decisionmaking;
+
+
+public class Decisionmaking4do {
+    public static void main(String[] args) {
+        int i=1;
+        int sum=0;
+        do{
+            sum+=i;
+            i++;
+        }while(i<=10);
+        System.out.print(sum);
+
+    }
+}
+
+
+
