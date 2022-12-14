@@ -1,4 +1,4 @@
-//Write a Javaprogram that accepts two integers from the user and then prints thesum (add) , the difference (sub) and the product (mul).//
+//Write a Javaprogram that accepts two integers from the user and then prints thesum (add) , the difference (sub) and the product (mul).
 
 package datatypes;
 import java.util.Scanner;
