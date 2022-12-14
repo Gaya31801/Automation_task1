@@ -1,0 +1,28 @@
+// Write Java program that accepts threenumber from the user and print the greatest number.//
+
+
+package decisionmaking;
+
+import java.util.Scanner;
+
+public class Decisionmaking2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Value of a: ");
+        int a = sc.nextInt();
+        System.out.println("Value of b: ");
+        int b = sc.nextInt();
+        System.out.println("Value of c: ");
+        int c = sc.nextInt();
+        if (a > b && a > c) {
+            System.out.println(a);
+        }
+        else if (b>c) {
+            System.out.println(b);
+        }
+        else {
+            System.out.println(c);
+
+        }
+    }
+}
