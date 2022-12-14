@@ -1,0 +1,15 @@
+//Write a Java programto declare three variable a, b, & c and store the valuesrespectively 10, 20.3 & 3.14785 . Then display their values onthe screen.
+
+package datatypes;
+
+public class Datatypes1 {
+    public static void main(String[] args) {
+        int a=10;
+        float b=20.3f;
+        double c=3.14785;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+
+    }
+}
