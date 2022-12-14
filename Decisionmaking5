@@ -1,0 +1,23 @@
+//Write a program that prompts the user toinput a positive integer. It should then print the multiplicationtable of that number.
+
+package decisionmaking;
+import java.util.Scanner;
+
+public class Decisionmaking5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Multiplicand: ");
+        int a = sc.nextInt();
+        System.out.println("Multiplier: ");
+        int n=sc.nextInt();
+        int i;
+        for(i=1;i<=n;i++)
+        {
+            int mul=a*i;
+            System.out.println(a+"*"+i+"="+mul);
+        }
+    }
+}
+
+
+
