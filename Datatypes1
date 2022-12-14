@@ -1,4 +1,4 @@
-//Write a Java programto declare three variable a, b, & c and store the valuesrespectively 10, 20.3 & 3.14785 . Then display their values onthe screen.
+//Write a Java programto declare three variable a, b, & c and store the valuesrespectively 10, 20.3 & 3.14785 . Then display their values onthe screen.//
 
 package datatypes;
 
